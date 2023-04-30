@@ -1,0 +1,218 @@
+{
+    "1": {
+        "exam": true,
+        "date_and_time": "08/01/2023 15:59:05",
+        "lastBucket": 0,
+        "correctAnswers": 3,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "2": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:06",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "3": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:12",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "4": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:12",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "5": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:13",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "6": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:13",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "7": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:13",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "8": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:15",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "9": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:16",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "10": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:16",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "11": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:16",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "12": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:16",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "13": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:16",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "14": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:17",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "15": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:19",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "16": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:19",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "17": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:19",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "18": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:19",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "19": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:20",
+        "lastBucket": 2,
+        "all_cards": 8,
+        "correctAnswers": 7,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "20": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 16:00:57",
+        "lastBucket": 3,
+        "all_cards": 13,
+        "correctAnswers": 12,
+        "incorrectAnswers": 1,
+        "learned": 0
+    },
+    "21": {
+        "exam": false,
+        "finished": true,
+        "date_and_time": "08/01/2023 18:57:56",
+        "lastBucket": 3,
+        "all_cards": 5,
+        "correctAnswers": 4,
+        "incorrectAnswers": 1,
+        "learned": 3
+    },
+    "22": {
+        "exam": true,
+        "date_and_time": "08/01/2023 18:59:02",
+        "lastBucket": 0,
+        "correctAnswers": 4,
+        "incorrectAnswers": 1,
+        "learned": 0
+    }
+}
