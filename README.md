@@ -16,7 +16,7 @@ Pozwala na przeprowadzanie sesji na kubeczkach z przedziału [0, wybrana liczba]
 $ python fishkey/session_launcher.py -i plik_z_fiszkami -b {N} -l liczba_wybranych_kubeczków
 ```
 ### `exam_launcher.py`
-Przeprowadza egzamin na wybraniej liczbie fiszek. Zapisuje liczbę poprawnych i niepoprawnych odpowiedzi, nie modyfikuje kubeczka karty.
+Przeprowadza egzamin na wybranej liczbie fiszek. Zapisuje liczbę poprawnych i niepoprawnych odpowiedzi, nie modyfikuje kubeczka karty.
 ```console
 $ python fishkey/exam_launcher.py -i plik_z_fiszkami -n liczba_wybranych_fiszek -t liczba_sekund_na_fiszkę
 ```
@@ -38,7 +38,7 @@ $ python fishkey/card_edit_launcher.py -i [plik_z_fiszkami]
 - `*_launcher.py` - Główne moduły projektu
 - `*_ui.py` - Pliki wygenerowane przy pomocy narzędzia pyuic5
 - `*_class.py` - Główne klasy `Card`, `Session`, `Exam`
-- `*_methods.py` - Pliki zawierające metody które nie powinny znajdować się wewnątrz obiektów.
+- `*_methods.py` - Pliki zawierające metody, które nie powinny znajdować się wewnątrz obiektów.
 
 ## Działanie:
 
@@ -54,14 +54,14 @@ Jeśli fiszka została rozwiązana niepoprawnie [{N}](#n) razy "pod rząd" uznaw
 Obsługiwane skróty klawiszowe:
 
 - `Enter` - Sprawdzenie aktualnej fiszki; jeśli fiszka jest już sprawdzona, przejście do następnej.
-- `Ctrl + S` - Zapis akutalnego postępu sesji.
+- `Ctrl + S` - Zapis aktualnego postępu sesji.
 - `Strzałki kierunkowe` - Zmiana fiszki na poprzednią lub następną w przypadku gdy aktualnie wyświetlana fiszka jest uzupełniona.
 
 Wyniki sesji zapisywane są do pliku z fiszkami w postaci zmienionych kubeczków oraz do pliku ze statystykami.
 
 ### **Egzamin**
-Do działania wymaga podania liczby fiszek i czasu przeznaczonego na rozwiązanie jednej fiszki. Wybrana liczba fiszek jest losowana z uwzględnieniem priorytetu fiszki i wyświetlana użytkownikowi. (Wyższy priorytet skutkuje zwiększonym prawdopodobieństwem wylosowania fiszki.) Czas na rozwiązanie egzaminu to liczba fiszek * czas na rozwiązanie jednej fiszki. Po upływie czasu egzamin kończy się.
-Wyniki egzaminu zapisywane są do pliku z fiszkami (Liczba poprawnych i nie poprawnych odpowiedzi karty jest edytowana) oraz do pliku ze statytykami. **Egzamin nie wpływa na liczbę poprawnych i niepoprawnych odpowiedzi *"pod rząd"***
+Do działania wymaga podania liczby fiszek i czasu przeznaczonego na rozwiązanie jednej fiszki. Wybrana liczba fiszek jest losowana z uwzględnieniem priorytetu fiszki i wyświetlana użytkownikowi. (Wyższy priorytet skutkuje zwiększonym prawdopodobieństwem wylosowania fiszki.) Czas na rozwiązanie egzaminu to liczba fiszek * czas na rozwiązanie jednej fiszki. Po upływie czasu kończy się egzamin.
+Wyniki egzaminu zapisywane są do pliku z fiszkami (Liczba poprawnych i niepoprawnych odpowiedzi karty jest edytowana) oraz do pliku ze statystykami. **Egzamin nie wpływa na liczbę poprawnych i niepoprawnych odpowiedzi *"pod rząd"***
 
 Obsługiwane skróty klawiszowe:
 
@@ -70,13 +70,13 @@ Obsługiwane skróty klawiszowe:
 ### **Edycja**
 
 Graficzne rozwiązanie edycji parametrów fiszki oraz tworzenie nowych fiszek.
-Nowo zdefiniowane fiszki trafiają do pierwszego kubecza.
+Nowo zdefiniowane fiszki trafiają do pierwszego kubeczka.
 Edytowalne parametry: główne słowo, słowo ukryte, liczbę poprawnych i niepoprawnych odpowiedzi, priorytet.
 
 Obsługiwane skróty klawiszowe:
 
-- `Ctrl + S` - Zapis akutalnego stanu zbioru fiszek.
-- `Ctrl + O` - Otwartcie pliku z fiszkami.
+- `Ctrl + S` - Zapis aktualnego stanu zbioru fiszek.
+- `Ctrl + O` - Otwarcie pliku z fiszkami.
 
 ### **Statystyki**
 Wyświetlane zostaje okno ze statystykami wybranej listy fiszek oraz sesji i egzaminów wykonanych na tej liście.
@@ -100,7 +100,7 @@ Parametry możliwe do zmiany. (Zmiana tylko raz, przed pierwszym uruchomieniem p
 Możliwość zmiany tego parametru nie została udostępniona użytkownikowi.
 
 #### {N}
-Liczba poprawnych lub niepoprawnych odpowiedzi wymagana do uznania fiszki za "nauczoną" lub za "zapomnianą"
+Liczba poprawnych, lub niepoprawnych odpowiedzi wymagana do uznania fiszki za "nauczoną" lub za "zapomnianą"
 
 ## Wygląd aplikacji:
 
